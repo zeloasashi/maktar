@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 1000px;
+    background: url(./img/SPX2_01.jpg) center center / contain no-repeat;
+}
+main .title1 h1{
+    text-align: center;
+    color: aliceblue;
+}
+main .subtitle1 h5{
+    text-align: center;
+    color: aliceblue;
+}
