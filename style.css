@@ -1,3 +1,7 @@
+*{
+    outline: 1px solid red;
+
+}
 body{
     margin: 0;
     box-sizing: border-box;
@@ -9,28 +13,31 @@ main{
 main .title1 h1{
     text-align: center;
     color: aliceblue;
+    /* font-size: xx-large; */
 }
+    
 .subtitle1 .container{
-    width: 450px;
+    /* width: 700px; */
     margin-top: 1.5rem;
 
 }
 .subtitle1 .row{
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-direction: column;
+
 }
 .subicon{
-    width: 70px;
+    width: 40px;
 }
 main .subtitle1 h6{
     overflow-wrap: break-word;
-    padding-left: 55px;
+    padding-left: 45px;
     padding-right: 10px;
     color: aliceblue;
 }
 .appleicon{
-    width: 200px;
+    width: 100px;
 }
 /* .aftersub{
     text-align: center;
@@ -39,13 +46,17 @@ main .subtitle1 h6{
     padding-top: 0;
 
 } */
-@media screen and (max-width: 768px){
-    
+@media screen and (min-width: 768px){
+    .subtitle1 .row{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }
 
 .product-feature{
-    height: 680px;
-    background: url(./img/手.jpg) right bottom / contain no-repeat;
+    /* max-height: 680px; */
+    width: 100%;
+    
 }
 
 .second-title{
@@ -54,6 +65,65 @@ main .subtitle1 h6{
 
 }
 .product-feature .container .row{
-    width: 80%;
+    width: 100%;
     text-align: center;
 }
+.awards-icon{
+
+}
+@media screen and (min-width: 992px){
+    .product-feature{
+        background: url(./img/手.jpg) right bottom / 450px no-repeat fixed;
+
+    }
+    .product-feature .container .row{
+        max-width: 80%;
+    }
+    .awards-icon{
+        text-align: center;
+        margin-top: 3.5rem;
+        padding-bottom: 2.5rem;
+        /* margin-left: 8rem; */
+    }
+}
+
+.third-section{
+    background-color: #222;
+    text-align: center;
+    color: aliceblue;
+
+}
+.third-section .container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+.third-section .third-title{
+    justify-content: center;
+    align-items: center;
+}
+.tsimg{
+    width: 120px;
+}
+.third-section .container span{
+    color: goldenrod;
+}
+.sound-quality{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+@media screen and (max-width:720px) {
+    .scroll-snap{
+        
+
+    }
+}
+.intro{
+    margin-top: 2.5rem;
+}
+@media screen and (min-width: 768px){
+    .earphonebg{
+
+    }
+}
+
