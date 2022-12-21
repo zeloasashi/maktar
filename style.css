@@ -3,14 +3,57 @@ body{
     box-sizing: border-box;
 }
 main{
-    height: 1000px;
-    background: url(./img/SPX2_01.jpg) center center / contain no-repeat;
+    height: 900px;
+    background: url(./img/SPX2_01.jpg) center center / cover no-repeat;
 }
 main .title1 h1{
     text-align: center;
     color: aliceblue;
 }
-main .subtitle1 h5{
+.subtitle1 .container{
+    width: 450px;
+    margin-top: 1.5rem;
+
+}
+.subtitle1 .row{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.subicon{
+    width: 70px;
+}
+main .subtitle1 h6{
+    overflow-wrap: break-word;
+    padding-left: 55px;
+    padding-right: 10px;
+    color: aliceblue;
+}
+.appleicon{
+    width: 200px;
+}
+/* .aftersub{
     text-align: center;
     color: aliceblue;
+    padding-right: 30px;
+    padding-top: 0;
+
+} */
+@media screen and (max-width: 768px){
+    
+}
+
+.product-feature{
+    height: 680px;
+    background: url(./img/手.jpg) right bottom / contain no-repeat;
+}
+
+.second-title{
+    margin: 2.5rem auto;
+    text-align: center;
+
+}
+.product-feature .container .row{
+    width: 80%;
+    text-align: center;
 }
