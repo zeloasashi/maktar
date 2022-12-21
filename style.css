@@ -127,3 +127,42 @@ main .subtitle1 h6{
     }
 }
 
+.four-section{
+
+    background: url(./img/4bg.png) center center / cover ;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: aliceblue;
+    text-align: center;
+
+}
+.four-section .container span{
+    color: goldenrod;
+}
+.fimg img{
+    width: 100%;
+}
+@media screen and (min-width: 576px){
+    .fimg img{
+        width: 70%;
+    }
+}
+.five-section{
+    background-color: #111;
+    padding-top: 3rem;
+    /* padding-bottom: 3rem; */
+    text-align: center;
+    color: aliceblue;
+
+}
+.five-section span{
+    color: goldenrod;
+
+}
+.fimg{
+    margin: 0 auto;
+    width: 80px;
+}
+.six-section{
+    padding-top: 6rem;
+}
