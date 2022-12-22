@@ -1,7 +1,7 @@
-*{
+/* *{
     outline: 1px solid red;
 
-}
+} */
 body{
     margin: 0;
     box-sizing: border-box;
@@ -57,11 +57,11 @@ main .subtitle1 h6{
 .product-feature{
     /* max-height: 680px; */
     width: 100%;
+    margin: 3rem auto;
     
 }
 
 .second-title{
-    margin: 2.5rem auto;
     text-align: center;
 
 }
@@ -70,11 +70,11 @@ main .subtitle1 h6{
     text-align: center;
 }
 .awards-icon{
-
+    
 }
 @media screen and (min-width: 992px){
     .product-feature{
-        background: url(./img/手.jpg) right bottom / 450px no-repeat fixed;
+        background: url(./img/手.jpg) right bottom / 450px no-repeat;
 
     }
     .product-feature .container .row{
@@ -130,7 +130,7 @@ main .subtitle1 h6{
 
 .four-section{
 
-    background: url(./img/4bg.png) center center / cover ;
+    background: url(./img/4bg.png) center center / cover fixed;
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: aliceblue;
@@ -197,6 +197,52 @@ main .subtitle1 h6{
 .six-intro .six-title{
     font-weight: bold;
 }
-.japanese .wrap .col{
-    /* width: 100px; */
+.seven-section{
+    margin: 6rem auto;
+}
+.seven-section .container h2 span{
+    color: goldenrod;
+}
+.seven-section .container h4{
+    max-width: 15%;
+    /* max-width: 30%; */
+    margin: 0 auto;
+    color: #444;
+    padding: 10px 0;
+    border: 1.5px solid #444;
+    border-radius: 4px;
+}
+.jpbgc{
+    color: whitesmoke;
+    padding: 4px 8px;
+    margin-right: 1.5rem;
+    border-radius: 4px;
+    background-color: goldenrod;
+}
+.jpsubtitle h6{
+    font-weight: bold;
+}
+.jpsubintro .small{
+    color: #555;
+}
+@media screen and (max-width: 768px){
+    .seven-section .container h4{
+        max-width: 40%;
+    }
+    .jpimg{
+        display: flex;
+        align-items: center;
+    }
+    .wrap{
+        flex-direction: column;
+    }
+
+}
+
+footer{
+    background-color: goldenrod;
+    color: #333;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
 }
