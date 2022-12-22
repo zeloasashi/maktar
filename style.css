@@ -10,7 +10,7 @@ main{
     height: 900px;
     background: url(./img/SPX2_01.jpg) center center / cover no-repeat;
 }
-main .title1 h1{
+main .title1 h1, main .title1 h3{
     text-align: center;
     color: aliceblue;
     /* font-size: xx-large; */
@@ -104,9 +104,7 @@ main .subtitle1 h6{
     justify-content: center;
     align-items: center;
 }
-.tsimg{
-    width: 120px;
-}
+
 .third-section .container span{
     color: goldenrod;
 }
@@ -115,9 +113,8 @@ main .subtitle1 h6{
     overflow-x: auto;
 }
 @media screen and (max-width:720px) {
-    .scroll-snap{
-        
-
+    .tsimg{
+        width: 100px;
     }
 }
 .intro{
@@ -202,7 +199,7 @@ main .subtitle1 h6{
 .seven-section{
     margin: 6rem auto;
 }
-.seven-section .container h2 span{
+.seven-section .container h2 span,.seven-section .container h3 span{
     color: goldenrod;
 }
 .seven-section .container h4{
