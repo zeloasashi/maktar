@@ -7,15 +7,31 @@ body{
     box-sizing: border-box;
 }
 main{
-    height: 900px;
-    background: url(./img/SPX2_01.jpg) center center / cover no-repeat;
+    position: relative;
+    height: 1000px;
+    /* height: 900px;
+    background: url(./img/SPX2_01.jpg) center center / cover no-repeat; */
 }
-main .title1 h1, main .title1 h3{
+/* main .container-fluid{
+    z-index: 10;
+} */
+main .title1 h1, main .title1 h4{
     text-align: center;
     color: aliceblue;
     /* font-size: xx-large; */
 }
-    
+main .title1 h4 img{
+    width: 15%;
+}
+.main-img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -10;
+}
 .subtitle1 .container{
     /* width: 700px; */
     margin-top: 1.5rem;
@@ -24,16 +40,16 @@ main .title1 h1, main .title1 h3{
 .subtitle1 .row{
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 
 }
 .subicon{
-    max-width: 50px;
-    height: 50px;
+    max-width: 40px;
+    height: 40px;
 }
-main .subtitle1 h6{
+main .subtitle1 h6, main .subtitle1 .small{
     overflow-wrap: break-word;
-    padding-left: 55px;
+    padding-left: 45px;
     padding-right: 10px;
     color: aliceblue;
 }
@@ -47,10 +63,19 @@ main .subtitle1 h6{
     padding-top: 0;
 
 } */
+@media screen and (max-width: 768px){
+    main{
+        height: 600px;
+    }
+}
 @media screen and (min-width: 768px){
     .subtitle1 .row{
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+    main .subtitle1 h6{
+        padding-left: 55px;
+
     }
 }
 
