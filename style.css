@@ -28,11 +28,12 @@ main .title1 h1{
 
 }
 .subicon{
-    width: 40px;
+    max-width: 50px;
+    height: 50px;
 }
 main .subtitle1 h6{
     overflow-wrap: break-word;
-    padding-left: 45px;
+    padding-left: 55px;
     padding-right: 10px;
     color: aliceblue;
 }
@@ -159,10 +160,43 @@ main .subtitle1 h6{
     color: goldenrod;
 
 }
-.fimg{
+.fvimg{
     margin: 0 auto;
-    width: 80px;
+    min-width: 70px;
+    max-width: 50px;
+    /* min-width: 10%;
+    max-width: 15%; */
+
 }
+
 .six-section{
     padding-top: 6rem;
+
+
+}
+
+.six-section .simg{
+    /* min-width: 800px;
+    max-width: 400px; */
+    text-align: center;
+    margin: 0 auto;
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+
+}
+/* @media screen and (max-width: 768px){
+    .simg img{
+        width: 65%;
+        display: block;
+    }
+} */
+.six-intro .six-red{
+    color: rgb(217, 0, 0);
+}
+.six-intro .six-title{
+    font-weight: bold;
+}
+.japanese .wrap .col{
+    /* width: 100px; */
 }
