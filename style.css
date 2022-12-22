@@ -57,12 +57,13 @@ main .subtitle1 h6{
 .product-feature{
     /* max-height: 680px; */
     width: 100%;
-    margin: 3rem auto;
     
 }
 
 .second-title{
     text-align: center;
+    margin-top: 3rem;
+
 
 }
 .product-feature .container .row{
@@ -70,7 +71,7 @@ main .subtitle1 h6{
     text-align: center;
 }
 .awards-icon{
-    
+    padding-bottom: 3rem;
 }
 @media screen and (min-width: 992px){
     .product-feature{
@@ -122,15 +123,15 @@ main .subtitle1 h6{
 .intro{
     margin-top: 2.5rem;
 }
-@media screen and (min-width: 768px){
-    .earphonebg{
-
+@media screen and (max-width: 576px){
+    .xtraimg{
+        padding-top: 20px;
     }
 }
 
 .four-section{
-
-    background: url(./img/4bg.png) center center / cover fixed;
+    background-color: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .6) url(./img/4bg.png) center center / cover fixed ;
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: aliceblue;
@@ -149,7 +150,7 @@ main .subtitle1 h6{
     }
 }
 .five-section{
-    background-color: #111;
+    background-color: rgba(0, 0, 0, 0.962);
     padding-top: 3rem;
     /* padding-bottom: 3rem; */
     text-align: center;
@@ -176,13 +177,8 @@ main .subtitle1 h6{
 }
 
 .six-section .simg{
-    /* min-width: 800px;
-    max-width: 400px; */
     text-align: center;
     margin: 0 auto;
-    /* justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; */
 
 }
 /* @media screen and (max-width: 768px){
